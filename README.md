@@ -1,12 +1,24 @@
-# Second HomeWork:
+# README
 
----------
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-This will be a restraunt reservation app without registration.
-* Create `Reservation` and `Customer` models.
-*  You can create your own models and controllers.
-*  Make a relationship between `Reservation` and `Customer` models.
-*  `before_create` you must create random string and you must set `reservation_code`to this attribute on Reservation model.
-*  `after_create` you will send email new `reservation_code` to your `customer`.(psuedo code)
-*  `before_validation` you need to delete spaces in your `full_name` string on Customer model. (regular expressions)
-*   You can only save orders except sundays.
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
