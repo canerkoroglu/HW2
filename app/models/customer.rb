@@ -3,4 +3,6 @@ class Customer < ApplicationRecord
   validates :full_name, presence: true, length: { minimum: 5 }
   validates :phone, length: { minimum: 10 }
 
+
+
 end
